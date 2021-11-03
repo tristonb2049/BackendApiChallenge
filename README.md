@@ -9,8 +9,8 @@ If you prefer to use the .NET CLI, simply open up a command prompt in the soluti
  
 To run this API project with Docker from Visual Studio, select 'Docker' in the Build dropdown selection, and click the Green 'Play' button, or hit F5. 
 This will build the solution and start the Docker container. If you're going through the command prompt, navigate to the project folder and enter the following two commands:
-"docker build -t aspnetapp ." (without quotation symbols)
-"docker run -d -p 8080:80 --name myapp BackendApiChallenge" (without quotation symbols)
+- "docker build -t aspnetapp ." (without quotation symbols)
+- "docker run -d -p 8080:80 --name myapp BackendApiChallenge" (without quotation symbols)
 Then visit localhost:8080 to see the app in the web browser.
  
 If you would like to build and run this project without Docker, simply select IIS Express, or BackendApiChallenge from the dropdown, and click the Green 'Play Button, or
